@@ -1,0 +1,71 @@
+body
+{
+  background-color: #ADD8E6;
+  
+}
+#title
+{
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+#description
+{
+  text-align:center;
+  font-size: 25px;
+  font-family: "Lucida Console", Monaco, monospace
+}
+li {
+  list-style-type: none;
+}
+#submit
+{
+  margin-left: 730px;
+}
+h2
+{
+  font-size: 30px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+h3
+{
+  font-size: 30px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.input-field
+{
+  width: 200px;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:20px
+}
+
+#email-label {
+    display:inline-block;
+    float: left;
+    padding-top: 5px;
+    text-align: left;
+    width: 60px;
+}
+#name-label {
+    display:inline-block;
+    float: left;
+    padding-top: 5px;
+    text-align: left;
+    width: 60px;
+}
+#number-label{
+    display:inline-block;
+    float: left;
+    padding-top: 5px;
+    text-align: left;
+    width: 60px;
+}
+comments
+{
+  width: 40px;
+}

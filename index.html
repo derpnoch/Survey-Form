@@ -1,0 +1,78 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">2019 MLB Baseball Survey Form</h1>
+<p id="description">Which MLB Baseball Team will make the playoff in 2009?</p>
+<form id="survey-form">
+  <div>
+    <label id="name-label" for="name">* Name: </label>
+    <input type="name" name="name" id="name" class="input-field" placeholder="Please Enter Your Name" required>
+  </div>
+  <div>
+    <label id="email-label" for="email">* Email: </label>
+    <input type="email" email="email" id="email" class="input-field" required placeholder="Please Enter Your Email">
+  </div>
+  <div>
+    <label id="number-label" for="number">* Age: </label>
+    <input type="number" number="number" id="number" min="1" max="125" class="input-field" placeholder="Please Enter Your Age" required>
+  </div>
+  <div>
+  <label id="currentFan-label" for="currentFan"> What type of baseball fan best describes you?</label>
+  <select id="dropdown" name=currentFan class="dropdown">
+    <option disabled value>Select an option</option>
+    <option value="casual">Casual</option>
+    <option value="moderate">Moderate</option>
+    <option value="dedicated">Dedicated</option>
+    <option value="don't watch">I don't watch baseball</option>
+  </select>
+  </div>
+  <div>
+    <label for="name"> Have you kept up with baseball during the offseason (free agent signing, trades, firing/changing management, etc) ?</label>
+    <li class="radio"><label>Yes<input name="radio" type="radio" value="yes"></label></li>
+    <li class="radio"><label>No<input name="radio" type="radio" value="no"></label></li>
+  </div>
+  <div>
+    <label for="postseason-teams">Which baseball teams will make the post-season for the 2019 season:<br>(Please select 5 National League Teams and 5 American League Teams, this includes both of the wildcard teams.)</label>
+    
+    <h2>American league (Select 5 Teams):</h2>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague1" type="checkbox">Baltimore Orioles</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague2" type="checkbox">Boston Red Sox</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague3" type="checkbox">New York Yankees</label></li> 
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague4" type="checkbox">Toronto Blue Jays</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague5" type="checkbox">Tampa Bay Rays</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague6" type="checkbox">Chicago White Sox</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague7" type="checkbox">Cleveland Indians</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague8" type="checkbox">Detroit Tigers</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague9" type="checkbox">Kansas City Royals</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague10" type="checkbox">Minnesota Twins</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague11" type="checkbox">Los Angeles Angels</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague12" type="checkbox">Oakland Athletics</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague13" type="checkbox">Seattle Mariners</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague14" type="checkbox">Texas Rangers</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="americanLeague15" type="checkbox">Houston Astros</label></li>
+    
+    <h3>National League (Select 5 Teams):</h3>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Altanta Braves</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Washington Nationals</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">New York Mets</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Philadelphia Phillies</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Miami Marlins</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Milwaukee Brewers</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Chicago Cubs</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Cincinnati Reds</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Pittsburgh Pirates</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">St. Louis Cardinals</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Los Angeles Dodgers</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">San Diego Padres</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">San Francisco Giants</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Colorado Rockies</label></li>
+    <li class="checkbox"><label><input name="postTeam" value="NationalLeague" type="checkbox">Arizona Diamondbacks</label></li>
+    
+    <div>
+    <label for="comments">Any Comments or Reasons on why you picked these 10 teams?</label>
+      <textarea id="comments"  name="comments" row="50" cols="50">Please Enter Comments or Reasons here....</textarea>
+    </div>
+    <div>
+      <button id="submit" type="submit" value="Submit">Submit</button>
+    </div>
+  </div>
+</form>
